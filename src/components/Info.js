@@ -6,17 +6,17 @@ import linkedinIcon from "../images/icons8-linkedin-50.png"
 export default function Info(){
     return (
         <div className="info">
-            <img src={profilePhoto} className="photo"/>
+            <img src={profilePhoto} className="photo" alt="profile"/>
             <h1>Aayush Shrivastava</h1>
             <h3>Frontend Developer</h3>
             <h4>AayushShrivastava.com</h4>
             <div className="buttons">
                 <button>
-                    <img src={emailIcon}/>
+                    <img src={emailIcon} alt="email"/>
                     <p>Email</p>
                 </button>
                 <button className="linkedin">
-                    <img src={linkedinIcon}/>
+                    <img src={linkedinIcon} alt="linkedin"/>
                     <p>LinkedIn</p>
                 </button>
             </div>

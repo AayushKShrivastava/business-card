@@ -7,10 +7,10 @@ import github from "../images/GitHub.png"
 export default function Info(){
     return (
         <footer>
-            <img src={twitter} />
-            <img src={facebook} />
-            <img src={Insta} />
-            <img src={github} />
+            <img src={twitter} alt="twitter"/>
+            <img src={facebook} alt="facebook"/>
+            <img src={Insta} alt="insta"/>
+            <img src={github} alt="github"/>
         </footer>
     )
 }
