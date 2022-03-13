@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+#root{
+    width: 550px;
+    height: 868px;
+    background: #23252C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 65px;
+    top: 53px;
+}
+
+.photo{
+    height: 317px;
+    width: 317px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1A1B21;
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+h2{
+    color: #F5F5F5;
+    font-size: 16px;
+}
+
+h3{
+    color: #F3BF99;
+    margin-top: 6px;
+    font-size: 12.8px;
+}
+
+h4{
+    color: #F5F5F5;
+     margin-top: 9px;
+     font-size: 10.24px;
+}
+.buttons{
+    display: flex;
+    gap: 17px;
+}
+
+.buttons > button{
+    width: 115px;
+    height: 34px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.linkedin{
+    background: #5093E2;
+}
+
+.linkedin > p{
+    color: #FFFFFF;
+}
+
+.linkedin > img{
+    background: white;
+    color: #5093E2;
+}
+
+Footer{
+    width: 317px;
+    height: 64px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
+
+footer > img{
+    height: 25px;
+}
+
+button{
+    display: flex;
+}
+
+.buttons>button>img{
+    width: 13.33px;
+    height: 13.33px;
+}
+
+.content{
+    width: 317px;
+    background: #1A1B21;
+    padding: 34px;
+}
+
+.text{
+    color: #DCDCDC;
+    font-size: 10.24px;
+}
+
